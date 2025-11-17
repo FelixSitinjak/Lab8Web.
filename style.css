@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 40px auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+}
+
+.main {
+    margin-top: 10px;
+}
+
+/* Link Tambah Barang di index */
+.main p a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+/* Tabel Data Barang */
+.main table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main table th,
+.main table td {
+    border: 1px solid #000000;
+    padding: 5px 8px;
+    text-align: left;
+}
+
+.main table th {
+    background-color: #f4f4f4;
+}
+
+.main table img {
+    height: 60px;
+}
+
+/* Form Tambah / Ubah Barang */
+.input {
+    margin-bottom: 10px;
+}
+
+.input label {
+    display: inline-block;
+    width: 120px;
+}
+
+.input input[type="text"],
+.input select,
+.input input[type="file"] {
+    width: 250px;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.submit input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px 18px;
+    cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+    opacity: 0.9;
+}
